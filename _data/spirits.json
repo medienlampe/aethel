@@ -1,6 +1,241 @@
 {
   "collections": [
     {
+      "name": "Whisk(e)y",
+      "collection": [
+        {
+          "name": "Infinity Bottle",
+          "additionals": "Custom blend whisk(e)y created by the collector.",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Four Roses: Single Barrel",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Maker's Mark",
+          "additionals": "",
+          "age": 0,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Buffalo Trace",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 50,
+          "rating": 0
+        },
+        {
+          "name": "Bushmills: Single Malt Whisky",
+          "additionals": "",
+          "age": 10,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Redbreast: Cask Strength Edition",
+          "additionals": "",
+          "age": 12,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Midleton: Single Cask Sherry 1998",
+          "additionals": "First Fill Sherry Finish",
+          "age": 15,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Writer's Tears",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Tullibardine: The Murray",
+          "additionals": "Châteauneuf-du-Pape Finish",
+          "age": 13,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Glenmorangie: The Original",
+          "additionals": "",
+          "age": 10,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Ardmore: Traditional Cask",
+          "additionals": "Peated",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Ardmore: Legacy",
+          "additionals": "",
+          "age": 0,
+          "since": "2015",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Bowmore: Black Rock",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 0,
+          "open": true,
+          "fill": 0,
+          "rating": 0
+        },
+        {
+          "name": "Laphroaig: 10",
+          "additionals": "",
+          "age": 10,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Laphroaig: Quarter Cask",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Laphroaig: Lore",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Bruichladdich: Port Charlotte Islay Barley",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Bruichladdich: Octomore 8.3",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 2,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Bruichladdich: Black Art 4.1",
+          "additionals": "",
+          "age": 23,
+          "since": "2018",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Bruichladdich: Black Art 6.1",
+          "additionals": "",
+          "age": 26,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Ardbeg: 10",
+          "additionals": "",
+          "age": 10,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Lagavulin: 16",
+          "additionals": "",
+          "age": 16,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Lagavulin: 8",
+          "additionals": "",
+          "age": 8,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        }
+      ]
+    },
+    {
       "name": "Gin",
       "collection": [
         {
@@ -32,6 +267,166 @@
           "open": true,
           "fill": 90,
           "rating": 9
+        },
+        {
+          "name": "Monkey 47",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 40,
+          "rating": 9
+        },
+        {
+          "name": "The Botanist",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 30,
+          "rating": 8
+        },
+        {
+          "name": "Sanddorn Gin",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 2,
+          "open": true,
+          "fill": 15,
+          "rating": 8
+        },
+        {
+          "name": "Gin Rouge",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 2,
+          "open": true,
+          "fill": 25,
+          "rating": 8
+        },
+        {
+          "name": "Bombay Sapphire East",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 80,
+          "rating": 8
+        },
+        {
+          "name": "Hendricks Gin",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 60,
+          "rating": 8
+        },
+        {
+          "name": "Ferdinand",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 2,
+          "open": true,
+          "fill": 60,
+          "rating": 8
+        },
+        {
+          "name": "The Duke",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 70,
+          "rating": 8
+        },
+        {
+          "name": "Marille Gin",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 7
+        },
+        {
+          "name": "Needle",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 80,
+          "rating": 7
+        },
+        {
+          "name": "Gin Mare",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 2,
+          "open": true,
+          "fill": 70,
+          "rating": 7
+        },
+        {
+          "name": "Long Horn",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 70,
+          "rating": 5
+        },
+        {
+          "name": "Bulldog",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 5
+        },
+        {
+          "name": "Both Old Tom Gin",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 5
+        },
+        {
+          "name": "Bombay Sapphire",
+          "additionals": "",
+          "age": 0,
+          "since": "2015",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 5
+        },
+        {
+          "name": "Tanqueray",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 4
         }
       ]
     },
@@ -67,6 +462,131 @@
           "open": true,
           "fill": 100,
           "rating": 6
+        }
+      ]
+    },
+    {
+      "name": "Mixed Liquors",
+      "collection": [
+        {
+          "name": "Amarula",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 9
+        },
+        {
+          "name": "Baileys",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 8
+        },
+        {
+          "name": "Rückforth Eierlikör",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 7
+        },
+        {
+          "name": "Talka Krówka Mleczna",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 9
+        },
+        {
+          "name": "43 Orochata",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 7
+        },
+        {
+          "name": "43",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 9
+        },
+        {
+          "name": "Jägermeister Winterkräuter",
+          "additionals": "",
+          "age": 0,
+          "since": "2016",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Southern Comfort",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Brennerei Oberteicher Sauerkirsch Likör",
+          "additionals": "",
+          "age": 0,
+          "since": "2015",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 8
+        },
+        {
+          "name": "La Camarguaise",
+          "additionals": "",
+          "age": 0,
+          "since": "2006",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 9
+        },
+        {
+          "name": "Túnel",
+          "additionals": "",
+          "age": 0,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 9
+        },
+        {
+          "name": "Palo Tunel",
+          "additionals": "",
+          "age": 0,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
         }
       ]
     }
