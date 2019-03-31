@@ -7,7 +7,7 @@ layout: page
 <ul>
   {% for spirit in site.data.spirits.collections %}
   <li>
-    <a href="#spirit-{{ spirit.name }}">{{ spirit.name }}</a>
+    <a href="#spirit-{{ spirit.name | slugify }}">{{ spirit.name }}</a>
   </li>
   {% endfor %}
 </ul>
@@ -17,29 +17,30 @@ layout: page
   spirits in this collection.
 </p>-->
 {% for spirit in site.data.spirits.collections %}
-<h2 id="spirit-{{ spirit.name }}">
-  <!--<a href="#spirit-{{ spirit.name }}">-->{{ spirit.name
-  }}<!--</a>-->
+<h2 id="spirit-{{ spirit.name | slugify }}">
+  <!--<a href="#spirit-{{ spirit.name }}">-->{{ spirit.name }}<!--</a>-->
 </h2>
 <p>
   There are currently <strong>{{ spirit.collection.size }}</strong> types of
-  {{ spirit.name }} in this collection: {% for bottle in spirit.collection %}
-  <li>
-    <a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">{{ bottle.name }}</a>
+  {{ spirit.name }} in this collection:
+  <ul>
+    {% for bottle in spirit.collection %}
+    <li>
+      <a href="#spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">{{ bottle.name }}</a>
+    </li>
     {% endfor %}
-  </li>
+  </ul>
 </p>
 
 {% for bottle in spirit.collection %}
 <article>
-  <h3 id="spirit-{{ spirit.name }}-{{ bottle.name }}">
-    <!--<a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">-->{{ bottle.name
-    }}<!--</a>-->
+  <h3 id="spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">
+    <!--<a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">-->{{ bottle.name }}<!--</a>-->
   </h3>
   <!--<p>
     {{ bottle.name }} {{ spirit.name }} is part of this collection since {{ bottle.since }}.<br>
     At the moment, there {% if bottle.amount > 1 %}are <strong>{{ bottle.amount }}</strong>{% else %}is <strong>one</strong>{% endif %} bottles available.<br>
-    This {{ spirit.name }} is <strong>{% if bottle.open %}available{% else %}not available{% endif %}</strong> for tasting.</li>
+    This {{ spirit.name }} is <strong>{% if bottle.open %}available{% else %}not available{% endif %}</strong> for tasting.</p>
   -->
   <ul>
     {% if bottle.rating > 0 %}
@@ -62,11 +63,11 @@ layout: page
       Bottles: <strong>{{ bottle.amount }}</strong>
     </li>-->
     <li>
-      Available for tasting:
-      <strong
-        >{% if bottle.fill == 0 %}empty{% elsif bottle.open %}✔{% else %}✖{%
-        endif %}</strong
-      >
+      Available for tasting: 
+      <strong>
+        {% if bottle.fill == 0 %}This bottle is empty.{% elsif bottle.open %}✔{% else %}✖{%
+        endif %}
+      </strong>
     </li>
   </ul>
 </article>
