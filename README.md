@@ -14,4 +14,4 @@ The data is provided via a simple JSON file.
 - Install Jekyll and Bundler: `gem install jekyll bundler`
 - Clone your forked repository and open it inside a terminal
 - Run `bundle exec jekyll serve` to run your local development environment
-- Adjust the library under `\_data/spirits.json
+- Adjust the library inside `_data/spirits.json`
