@@ -1,0 +1,74 @@
+{
+  "collections": [
+    {
+      "name": "Gin",
+      "collection": [
+        {
+          "name": "Gin Eva",
+          "additionals": "",
+          "age": 0,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Gin Xoriguer",
+          "additionals": "",
+          "age": 0,
+          "since": "2019",
+          "amount": 1,
+          "open": false,
+          "fill": 100,
+          "rating": 0
+        },
+        {
+          "name": "Siegfried",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 9
+        }
+      ]
+    },
+    {
+      "name": "Rum",
+      "collection": [
+        {
+          "name": "Don Papa",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 9
+        },
+        {
+          "name": "The Kraken",
+          "additionals": "",
+          "age": 0,
+          "since": "2018",
+          "amount": 1,
+          "open": true,
+          "fill": 90,
+          "rating": 8
+        },
+        {
+          "name": "Bacardi Oakheart",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 100,
+          "rating": 6
+        }
+      ]
+    }
+  ]
+}

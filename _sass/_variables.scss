@@ -1,0 +1,24 @@
+//
+// VARIABLES
+//
+
+// Colors
+$black: rgba(0, 0, 0, 0.12);
+$darkerGrey: #263238;
+$darkGrey: #37474f;
+$grey: #b0bec5;
+$lightGrey: #cfd8dc;
+$white: #fefefe;
+
+// Font
+$sourceCodePro: 'Source Code Pro2', Arial, sans-serif;
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
