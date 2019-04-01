@@ -17,59 +17,68 @@ layout: page
   spirits in this collection.
 </p>-->
 {% for spirit in site.data.spirits.collections %}
-<h2 id="spirit-{{ spirit.name | slugify }}">
-  <!--<a href="#spirit-{{ spirit.name }}">-->{{ spirit.name }}<!--</a>-->
-</h2>
-<p>
-  There are currently <strong>{{ spirit.collection.size }}</strong> types of
-  {{ spirit.name }} in this collection:
+<section>
+  <h2 id="spirit-{{ spirit.name | slugify }}">
+    <!--<a href="#spirit-{{ spirit.name }}">-->{{ spirit.name
+    }}<!--</a>-->
+  </h2>
+  <p>
+    There are currently <strong>{{ spirit.collection.size }}</strong> types of
+    {{ spirit.name }} in this collection:
+  </p>
   <ul>
     {% for bottle in spirit.collection %}
     <li>
-      <a href="#spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">{{ bottle.name }}</a>
+      <a
+        href="#spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}"
+        >{{ bottle.name }}</a
+      >
     </li>
     {% endfor %}
   </ul>
-</p>
 
-{% for bottle in spirit.collection %}
-<article>
-  <h3 id="spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">
-    <!--<a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">-->{{ bottle.name }}<!--</a>-->
-  </h3>
-  <!--<p>
+  {% for bottle in spirit.collection %}
+  <article>
+    <h3 id="spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">
+      <!--<a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">-->{{
+        bottle.name
+      }}<!--</a>-->
+    </h3>
+    <!--<p>
     {{ bottle.name }} {{ spirit.name }} is part of this collection since {{ bottle.since }}.<br>
     At the moment, there {% if bottle.amount > 1 %}are <strong>{{ bottle.amount }}</strong>{% else %}is <strong>one</strong>{% endif %} bottles available.<br>
     This {{ spirit.name }} is <strong>{% if bottle.open %}available{% else %}not available{% endif %}</strong> for tasting.</p>
   -->
-  <ul>
-    {% if bottle.rating > 0 %}
-    <!--<li>
+    <ul>
+      {% if bottle.rating > 0 %}
+      <!--<li>
       Rating: <strong>{{ bottle.rating }}</strong>
     </li>-->
-    {% endif %} {% if bottle.additionals.size > 0 %}
-    <li>
-      Additional information: <strong>{{ bottle.additionals }}</strong>
-    </li>
-    {% endif %} {% if bottle.age > 0 %}
-    <li>
-      Aged: <strong>{{ bottle.age }} years</strong>
-    </li>
-    {% endif %}
-    <li>
-      Since: <strong>{{ bottle.since }}</strong>
-    </li>
-    <!--<li>
+      {% endif %} {% if bottle.additionals.size > 0 %}
+      <li>
+        Additional information: <strong>{{ bottle.additionals }}</strong>
+      </li>
+      {% endif %} {% if bottle.age > 0 %}
+      <li>
+        Aged: <strong>{{ bottle.age }} years</strong>
+      </li>
+      {% endif %}
+      <li>
+        Since: <strong>{{ bottle.since }}</strong>
+      </li>
+      <!--<li>
       Bottles: <strong>{{ bottle.amount }}</strong>
     </li>-->
-    <li>
-      Available for tasting: 
-      <strong>
-        {% if bottle.fill == 0 %}This bottle is empty.{% elsif bottle.open %}✔{% else %}✖{%
-        endif %}
-      </strong>
-    </li>
-  </ul>
-</article>
+      <li>
+        Available for tasting:
+        <strong>
+          {% if bottle.fill == 0 %}This bottle is empty.{% elsif bottle.open
+          %}✔{% else %}✖{% endif %}
+        </strong>
+      </li>
+    </ul>
+  </article>
 
-{% endfor %} {% endfor %}
+  {% endfor %}
+</section>
+{% endfor %}
