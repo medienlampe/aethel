@@ -42,9 +42,12 @@ layout: page
       {% for bottle in spirit.collection %}
       <tr>
         <td id="spirit-{{ spirit.name | slugify }}-{{ bottle.name | slugify }}">
-          <a href="#spirit-{{ spirit.name }}-{{ bottle.name }}">{{
-            bottle.name
-          }}</a>
+          <a
+            href="#spirit-{{ spirit.name | slugify }}-{{
+              bottle.name | slugify
+            }}"
+            >{{ bottle.name }}</a
+          >
         </td>
         <td>
           {% if bottle.age > 0 %}
