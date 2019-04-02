@@ -574,7 +574,7 @@
           "age": 0,
           "since": "2019",
           "amount": 1,
-          "open": false,
+          "open": true,
           "fill": 100,
           "rating": 7
         },
