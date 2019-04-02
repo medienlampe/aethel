@@ -246,17 +246,7 @@
           "amount": 1,
           "open": false,
           "fill": 100,
-          "rating": 0
-        },
-        {
-          "name": "Gin Xoriguer",
-          "additionals": "",
-          "age": 0,
-          "since": "2019",
-          "amount": 1,
-          "open": false,
-          "fill": 100,
-          "rating": 0
+          "rating": 9
         },
         {
           "name": "Siegfried",
@@ -309,13 +299,13 @@
           "rating": 8
         },
         {
-          "name": "Bombay Sapphire East",
+          "name": "Gin Xoriguer",
           "additionals": "",
           "age": 0,
-          "since": "2017",
+          "since": "2019",
           "amount": 1,
-          "open": true,
-          "fill": 80,
+          "open": false,
+          "fill": 100,
           "rating": 8
         },
         {
@@ -326,6 +316,16 @@
           "amount": 1,
           "open": true,
           "fill": 60,
+          "rating": 8
+        },
+        {
+          "name": "Bombay Sapphire East",
+          "additionals": "",
+          "age": 0,
+          "since": "2017",
+          "amount": 1,
+          "open": true,
+          "fill": 80,
           "rating": 8
         },
         {
@@ -576,7 +576,7 @@
           "amount": 1,
           "open": false,
           "fill": 100,
-          "rating": 9
+          "rating": 7
         },
         {
           "name": "Palo Tunel",
