@@ -4,14 +4,18 @@ _Keeping track of and presenting your booze collection since 2019._
 
 ## About
 
-This is a small, [Jekyll](https://github.com/jekyll/jekyll)-based static file generation environment which provides you a way to show off your collection of booze (or whatever else) as an easy website.
+This is a small, [Eleventy](https://github.com/11ty/eleventy)-based static file generation environment which provides you a way to show off your collection of booze (or whatever else) as an easy website.
 The data is provided via a simple JSON file.
 
 ## Usage
 
 - Fork this repository
-- [Install the ruby prerequisites](https://jekyllrb.com/docs/installation/)
-- Install Jekyll and Bundler: `gem install jekyll bundler`
-- Clone your forked repository and open it inside a terminal
-- Run `bundle exec jekyll serve` to run your local development environment
+- Run `npm install` to get all dependencies
+- Run `npm start` to start the local development environment
 - Adjust the library inside `_data/spirits.json`
+
+### Hints
+- Site data can be adjusted in `_data/site.json`
+- The output will be exported to the folder `_site`
+- You can build your library without running the development environment first with `npm run build`
+- Tests are defined in `aethel.test.js` and are available via `npm test`

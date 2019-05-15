@@ -5,7 +5,7 @@ layout: page
 <h1>Collection of Spirits</h1>
 <h2>Table of contents</h2>
 <ul>
-  {% for spirit in site.data.spirits.collections %}
+  {% for spirit in spirits.collections %}
   <li>
     <a href="#spirit-{{ spirit.name | slugify }}">{{ spirit.name }}</a>
   </li>
@@ -13,10 +13,10 @@ layout: page
 </ul>
 <!--<p>
   There are currently
-  <strong>{{ site.data.spirits.collections.size }}</strong> types of different
+  <strong>{{ spirits.collections.size }}</strong> types of different
   spirits in this collection.
 </p>-->
-{% for spirit in site.data.spirits.collections %}
+{% for spirit in spirits.collections %}
 <section>
   <h2 id="spirit-{{ spirit.name | slugify }}">
     <!--<a href="#spirit-{{ spirit.name }}">-->{{ spirit.name
