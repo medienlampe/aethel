@@ -1,0 +1,30 @@
+{
+  "name": "aethel",
+  "version": "2.0.0",
+  "description": "Aethel - The Spirit Guide",
+  "dependencies": {
+    "eleventy": "^0.2.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "tar": "^4.4.2"
+  },
+  "scripts": {
+    "start": "gulp watch & eleventy --watch",
+    "build": "gulp && eleventy",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medienlampe/aethel.git"
+  },
+  "author": "Sven Bischoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medienlampe/aethel/issues"
+  },
+  "homepage": "https://github.com/medienlampe/aethel#readme"
+}
