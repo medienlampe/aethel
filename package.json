@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Aethel - The Spirit Guide",
   "dependencies": {
-    "eleventy": "^0.2.0",
+    "@11ty/eleventy": "github:11ty/eleventy",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
@@ -13,8 +13,8 @@
     "tar": "^4.4.13"
   },
   "scripts": {
-    "start": "gulp watch & npx eleventy --serve",
-    "build": "gulp && npx eleventy",
+    "start": "gulp watch & eleventy --serve",
+    "build": "gulp && eleventy",
     "test": "jest"
   },
   "repository": {
