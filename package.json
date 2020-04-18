@@ -13,7 +13,7 @@
     "tar": "^4.4.13"
   },
   "scripts": {
-    "start": "gulp watch & eleventy --watch",
+    "start": "gulp watch & eleventy --serve",
     "build": "gulp && eleventy",
     "test": "jest"
   },

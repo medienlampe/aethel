@@ -2,8 +2,8 @@
 layout: page
 ---
 
-<h1>Collection of Spirits</h1>
-<h2>Table of contents</h2>
+<h2>Collection of Spirits</h2>
+<h3>Table of contents</h3>
 <ul>
   {% for spirit in spirits.collections %}
   <li>
@@ -71,7 +71,7 @@ layout: page
             %}no{% endif %}
           </strong>
         </td>
-        <td class="table table__tbody table__tbody--smalltext">
+        <td class="table table__tbody">
           {% if bottle.additionals.size > 0 %}
           {{ bottle.additionals }}
           {% endif %}
