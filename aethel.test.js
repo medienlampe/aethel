@@ -6,15 +6,18 @@ test("Checks if spirits.json exists", () => {
 
 test("Checks if spirits.json is well-formed.", () => {
   const compileSpirits = () => {
-    let result = false;
-    let data = fs.readFileSync("_data/spirits.json", "utf8");
-    let content = JSON.parse(data);
+    try {
+      let data = fs.readFileSync("_data/spirits.json", "utf8");
+      let content = JSON.parse(data);
 
-    if (Object.keys(content).length) {
-      result = true;
+      if (Object.keys(content).length) {
+        return true;
+      }
+    } catch (error) {
+      console.error(error);
+    } finally {
+      return false;
     }
-
-    return result;
   };
 
   expect(compileSpirits()).toBe(true);
