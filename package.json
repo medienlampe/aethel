@@ -7,7 +7,7 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
-    "jest": "^24.9.0"
+    "jest": "^26.6.3"
   },
   "devDependencies": {
     "tar": "^4.4.13"
